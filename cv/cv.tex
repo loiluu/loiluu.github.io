@@ -1,0 +1,188 @@
+\documentclass[margin,line]{res}
+
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\usepackage{enumerate}
+\usepackage{enumitem}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list0}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0.08in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.0in}}}{\end{list}}
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\newcounter{qcounter}
+\newenvironment{enum0}{
+  \begin{list}{\arabic{qcounter}.~}{%
+	  \usecounter{qcounter}
+      \setlength{\itemsep}{0.08in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.0in}}}{\end{list}}
+
+\begin{document}
+
+\name{{\Large Luu The Loi\vspace*{.1in}} (Loi Luu)}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+{Phone: } (+65) 93443602 \\            
+{ Linkedin:} \href{https://www.linkedin.com/in/loiluu/}{https://www.linkedin.com/in/loiluu/}\\         
+{ E-mail:}  \href{mailto:loiluu@kyber.network}{\textsf{loiluu@kyber.network}} \\       
+% \begin{tabular}{@{}p{3in}p{4in}}
+% KyberNetwork            & {Phone: } (+65) 93443602 \\            
+% Com 2, Base 1--02, \href{http://comp.nus.edu.sg}{School of Computing}   &  { Web:} \href{http://www.comp.nus.edu.sg/~loiluu}{http://www.comp.nus.edu.sg/\textasciitilde loiluu}\\         
+% \href{http://nus.edu.sg}{National University of Singapore}& { E-mail:}  \href{mailto:loiluu@comp.nus.edu.sg}{\textsf{loiluu@comp.nus.edu.sg}} \\       
+% \end{tabular}
+
+
+\section{\sc Introduction}
+Loi Luu is a co-founder and CEO of Kyber Network, a decentralized liquidity network for cryptocurrencies that powers various applications including decentralized exchanges, index funds, cryptocurrency payments and so on. He also earned his PhD from National University of Singapore where he did research on cryptocurrencies, smart contract security and distributed consensus algorithms. 
+
+Loi believes in the force of the Ethereum and Blockchain technology. Much of his work revolves around this community. He developed Oyente, the first open-source security analyser for Ethereum smart contracts that are being used by Augur, Melonport and Quantstamp. Loi also designed the first sharding protocol for pubic blockchain which directly inspired Zilliqa, a promising scalable public blockchain. He continues to champion decentralisation and trustless properties of the Blockchain with Kyber Network, taking inspiration and developing value for the community.
+
+\section{\sc Education}
+\begin{list0}
+\item \href{http://www.nus.edu.sg}{\textbf {National University of Singapore, Singapore}}\\
+Ph.D.,  Computer Science,\hfill August 2014 -- January 2018\\
+\vspace{-.1in}
+\begin{list2}
+\item \emph{Thesis}:  ``TOWARDS SECURE PUBLIC BLOCKCHAIN PROTOCOLS AT SCALE'' 
+\item \emph{Advisor}: \href{http://www.comp.nus.edu.sg/~prateeks}{Dr. Prateek Saxena}
+\end{list2}
+\vspace{.1in}
+\item \href{http://uet.vnu.nus.edu.vn}{\textbf{Vietnam National Univ., Hanoi, Vietnam}}\\
+B.S., Computer Science, \hfill  August 2009 -- June 2013\\
+\vspace{-.1in}
+\begin{list2}
+\item \emph{GPA}: 3.62/4.0, Honor Programme, Highest Distinction
+\item \emph{Thesis}:  ``Implement Breath First Search and Experiment with Search Algorithms on KLEE'' 
+\item \emph{Thesis advisors}: \href{http://uet.vnu.edu.vn/~hoangta}{Dr. Hoang T. Anh}
+\end{list2}
+\end{list0}
+
+\section{\sc Selected\\ Honors \\ and Awards} 
+\begin{list0}
+\item {\bf \href{https://www.forbes.com/30-under-30-asia/2018/finance-venture-capital/#2d0f2b5d547f}{Forbes Asia 30 Under 30}, Finance \& Venture Capital track} \hfill 2018
+\item {\bf \href{http://event.forbesvietnam.com/30under30/luutheloi.html}{Forbes Vietnam 30 Under 30}} \hfill 2018
+\item {\bf  Dean's Graduate Research Excellence Award} \hfill 2017\\
+NUS School of Computing.
+\item {\bf Microsoft Research Asia Graduate Fellowship} \hfill 2016
+\item {\bf President Graduate Fellowship} \hfill 2014-2017\\
+National University of Singapore.
+\end{list0}
+
+\section{\sc Projects}
+\begin{list0}
+\item {\bf Elastico.} The first sharding protocol to scale up transaction rate in public blockchains.
+  \begin{itemize}
+    \item Inspires \href{https://zilliqa.com}{Zilliqa}, a new public blockchain.
+    \item Commercialized and Deployed at an (undisclosed) financial institution in Aug 2016
+  \end{itemize}
+
+\item {\bf Kyber Network.} A  a decentralized platform for cryptocurrencies that powers various cryptocurrency applications and raise 52 Million USD in September 2017.
+\item {\bf Oyente.} The first open source analyzer for Ethereum smart contracts, used by various industry projects (e.g. Quantstamp, Augur, Melonport).
+\item {\bf SmartPool.} An open source decentralized mining pool protocol for cryptocurrencies.
+\end{list0}
+
+
+
+\section{\sc Peer-reviewed Publication}
+\begin{enumerate}
+  \item \underline{Loi Luu}, Yaron Velner, Jason Teutsch, Prateek Saxena . SMARTPOOL: Practical Decentralized Pooled Mining. \emph{The 26th USENIX Security Symposium} (\textbf{UsenixSec'17}) (Acceptance rate 16.28\%).
+  \begin{itemize}
+    \item Launched as a community \href{http://smartpool.io/}{project}.
+    \item Deployed on the \href{https://etherscan.io/address/0xfc668AE14b0F7702c04b105448fE733D96C558DF}{main Ethereum network} and has found over 100 blocks and counting.
+  \end{itemize}
+
+  \item \underline{Loi Luu}, Viswesh Narayanan, Chaodong Zheng, Kunal Baweja, Seth Gilbert, Prateek Saxena. A Secure Sharding Protocol For Blockchains. \emph{The 23rd ACM Conference on Computer and Communications Security} (\textbf{CCS'16}) (Acceptance rate 16.5\%).
+
+  \item \underline{Loi Luu}, Duc-Hiep Chu, Hrishi Olickel, Prateek Saxena, Aquinas Hobor. Making Smart Contracts Smarter. 
+  \emph{The 23rd ACM Conference on Computer and Communications Security} (\textbf{CCS'16}) (Acceptance rate 16.5\%).
+  \begin{itemize}
+    \item The \href{https://github.com/melonproject/oyente}{code} is opensource and maintained by MelonPort.
+    \item The paper is well received by the community. See this \href{https://www.reddit.com/r/ethereum/comments/4p52qd/new_paper_making_smart_contracts_smarter/}{Reddit post.}
+    \item On the news: \href{http://coindesk.com/smart-contract-debugger-debut-ethereum-conference/}{CoinDesk}.
+  \end{itemize}
+
+  \item \underline{Loi Luu}, Jason Teutsch, Raghav Kulkarni and Prateek Saxena. Demystifying incentives in the consensus computer. \emph{The 22nd ACM Conference on Computer and Communications Security} (\textbf{CCS'15}) (Acceptance rate 19.4\%).
+  \begin{itemize}
+    \item \textit{The paper has inluenced the future design of Ethereum cryptocurrency. See this \href{https://blog.ethereum.org/2016/05/09/on-settlement-finality/}{blog post.}}
+                    
+    \item \textit{Great discussion about the paper on \href{https://www.reddit.com/r/ethereum/comments/3fcw0i/verifiers_dilemma_renders_ethereum_nonincentive/}{Reddit.}}
+  \end{itemize}
+  \item \underline{Loi Luu}, Ratul Saha, Inian Parameshwaran, Prateek Saxena and Aquinas Hobor. On Power Splitting Games in Distributed Computation: The Case of Bitcoin Pooled Mining, \emph{The 28th IEEE Computer Security Foundations Symposium} (\textbf{CSF'15}) (Acceptance rate 34.3\%).  
+
+  \item \underline{Loi Luu}, Shweta Shinde, Prateek Saxena and Brian Demsky. A Model Counter for Constraints Over Unbounded Strings, \emph{The 35th annual ACM SIGPLAN conference on Programming Language Design and Implementation} (\textbf{PLDI'14}) (Acceptance rate 18.1\%).
+
+  \item \underline{Loi Luu}, . Smart Contracts Make Bitcoin Mining Pools Vulnerable. To appear at the \emph{4th Workshop on Bitcoin and Blockchain Research} (\textbf{BITCOIN'17}).
+
+\end{enumerate}
+
+
+% \section{\sc Talks}
+% \begin{enumerate}
+%   \item SmartPool: Decentralized Mining Pools Using Smart Contracts, \href{http://edcon.io}{European Ethereum Development Conference}, Paris, February 2017.
+
+%   \item Ethereum and Smart Contracts, \href{http://blockchain.sjtu.edu.cn/en/index.php}{Winter School on Cryptocurrency and Blockchain Technologies}, Shanghai, January 2017.
+
+%   \item Making Smart Contracts Smarter, \href{https://ethereumfoundation.org/devcon/?page_id=14}{Ethereum Devcon2}, Shanghai, September 2016.
+  
+%   \item SCP: A Computationally-Scalable Byzantine Consensus Protocol, \href{https://scalingbitcoin.org/hongkong2015}{ScalingBitcoin, Hong Kong}, December 2015.  
+% \end{enumerate}
+
+
+\section{\sc Professional Experience}
+\begin{enumerate}
+\item Research Intern\hfill June 2017 - August 2017\\
+Visa Research
+\item Research Intern\hfill November 2016 - Jan 2017\\
+Ethereum Foundation
+\item Scientific advisor for several financial institutions \hfill April 2016 - November 2016\\
+Anquan Capital
+\item Research Assistant \hfill Jul 2013 - Aug 2014\\
+National University of Singapore
+\end{enumerate}
+
+\section{\sc References} 
+%References Available Upon Request
+
+\begin{minipage}[t]{0.48\textwidth}
+\href{http://www.comp.nus.edu.sg/~prateeks}{\textbf{Dr. Prateek Saxena}} (advisor)\\
+Assistant Professor\\
+School of Computing\\
+National University of Singapore\\
+Email: \textsf{prateeks@comp.nus.edu.sg}\\
+\end{minipage}%
+\begin{minipage}[t]{0.48\textwidth}
+\href{http://buterin.com/}{\textbf{Vitalik Buterin}}\\
+Founder, Chief Scientist\\
+Ethereum Foundation\\
+Email: \textsf{v@buterin.com}\\
+\end{minipage}
+
+\end{resume}
+\end{document}
