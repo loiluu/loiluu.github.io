@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>Oyente's Home Page</title>
+	<script src="jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<style>
+            .monospace { font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace; }
+        </style>        
+	<link rel="stylesheet" type="text/css" href="style.css">  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+              ga('create', 'UA-51512121-3', 'auto');
+                ga('send', 'pageview');
+                
+    </script>
+</head>
+<body>	
+		<div class="container main">	
+		<div class="card mb-3 text-left">
+            <h1 class="card-header" id="about-me">Oyente</h1>	
+            	<div class="card-block">								
+		
+				<h2> An Analysis Tool for Smart Contracts</h2>
+				<p>
+					Cryptocurrencies record transactions in a decentralized data structure called a
+blockchain. Two of the most popular cryptocurrencies, Bitcoin and
+Ethereum, support the feature to encode rules or scripts for processing transactions.
+This feature has evolved to give practical shape to the ideas of smart
+contracts, or full-fledged programs that are run on blockchains.
+Recently, Ethereum's smart contract system has seen steady adoption, supporting
+tens of thousands of contracts, holding millions dollars worth of
+virtual coins. </p>
+
+<p>
+Unfortunately, sevevral new security problems in which an adversary can manipulate smart
+contract execution to gain profit have been introduced both by ourselves and other researchers. 
+These bugs suggest subtle gaps in the
+understanding of the distributed semantics of the underlying platform. 
+For developers writing contracts
+for the existing Ethereum system, we build a symbolic execution tool called
+Oyente to find potential security bugs. Among 19, 366 existing
+Ethereum contracts, Oyente flags 8, 833 of them as vulnerable, 
+including the TheDAO bug which led to a 60 million US dollar loss in June 2016.
+				</p>
+				<ul>
+					<li> Oyente is open source: <a href="https://github.com/ethereum/oyente">Github repo </a></li>
+					<li> Benchmarks and results reported in the paper: <a href="https://oyente.github.io/benchmarks/"> Link </a> </li>
+				</ul>
+			</div>
+		</div>
+		<div class="card mb-3 text-left">
+            <h1 class="card-header" id="about-me">Publications</h1>	
+            	<div class="card-block">								
+		
+				<ul>
+					<li>
+						<a href="http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf"> Making Smart Contracts Smarter</a>
+						<br/>
+						Loi Luu,  Duc-Hiep Chu, Hrishi Olickel, Prateek Saxena, Aquinas Hobor
+						<br/>
+						<cite>ACM Conference on Computer and Communications Security</cite> (<a href="http://www.sigsac.org/ccs/CCS2015/">CCS 2016 </a>)
+						</br>
+						[<a href="http://eprint.iacr.org/2016/633">Online Eprint</a>] &nbsp;&nbsp;&nbsp;
+						[<a href="https://www.youtube.com/watch?v=EIEB_FKZLEE">Online Talk</a>] &nbsp;&nbsp;&nbsp;
+						[Acc Rate: 16.48%]						
+					</li>
+			</div>
+		</div>
+		<div class="card mb-3 text-left">
+            <h1 class="card-header" id="about-me">People</h1>	
+            	<div class="card-block">	
+				<ul>
+					<li><a href="https://www.comp.nus.edu.sg/~loiluu/">Loi Luu</a></li>
+					<li><a href="https://www.comp.nus.edu.sg/~chuduchi/">Duc-Hiep Chu</a></li>
+					<li><a href="http://hrishioa.github.io/">Hrishi Olickel</a></li>
+					<li><a href="https://www.comp.nus.edu.sg/~prateeks/">Prateek Saxena</a></li>
+					<li><a href="https://www.comp.nus.edu.sg/~hobor/">Aquinas Hobor</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="card mb-3 text-left">
+            <h1 class="card-header" id="about-me">Talks and Medias</h1>	
+            	<div class="card-block">	
+				<ul>
+					<li>
+						<a href="https://www.reddit.com/r/ethereum/comments/4p52qd/new_paper_making_smart_contracts_smarter/">Reddit post</a>
+					</li>
+					<li>						
+						<a href="http://www.coindesk.com/smart-contract-debugger-debut-ethereum-conference/">CoinDesk</a>
+					</li>
+					<li> Loi Luu presented Oyente at <a href="https://ethereumfoundation.org/devcon/">Ethereum Devcon 2</a>, Shanghai, September 2016. [<a href="http://www.comp.nus.edu.sg/~loiluu/talks/oyente-devcon2.pptx">slides</a>]</li>
+
+				</ul>				
+			</div>
+		</div>		
+	</div>
+</body>
+</html>
